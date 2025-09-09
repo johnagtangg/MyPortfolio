@@ -13,7 +13,7 @@ const Projects = () => {
           {/* Project 1 */}
           <div className="project-card glass-card">
             <div className="project-image">
-              <img src="src\SEQUOIA.png" alt="E-commerce Platform" />
+              <img src="/SEQUOIA.png" alt="E-commerce Platform" />
               <div className="project-overlay">
                 <div className="project-links">
                   <a href="https://sequoiatherapy.com/deep-tissue-massage/" className="project-link">
@@ -39,7 +39,7 @@ const Projects = () => {
           {/* Project 2 */}
           <div className="project-card glass-card">
             <div className="project-image">
-              <img src="src\Sunstra.png" alt="Corporate Website" />
+              <img src="/Sunstra.png" alt="Corporate Website" />
               <div className="project-overlay">
                 <div className="project-links">
                   <a href="https://sunstra.com/" className="project-link">
@@ -65,7 +65,7 @@ const Projects = () => {
           {/* Project 3 */}
           <div className="project-card glass-card">
             <div className="project-image">
-              <img src="src\BelleSoul.png" alt="Belle Soul Aesthetics" />
+              <img src="/BelleSoul.png" alt="Belle Soul Aesthetics" />
               <div className="project-overlay">
                 <div className="project-links">
                   <a href="https://bellesoulaesthetics.com/" className="project-link">
@@ -91,7 +91,7 @@ const Projects = () => {
           {/* Project 4 */}
           <div className="project-card glass-card">
             <div className="project-image">
-              <img src="src\Adsum Colour.png" alt="Adsum Colour" />
+              <img src="/Adsum Colour.png" alt="Adsum Colour" />
               <div className="project-overlay">
                 <div className="project-links">
                   <a href="https://www.figma.com/proto/2ZdqNN7Bjhfz83JmZovnCf/Adsum-Colour?node-id=4056-189&p=f&t=Xu04v252rNIH9uri-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1" className="project-link">
@@ -118,7 +118,7 @@ const Projects = () => {
           {/* Project 5 */}
           <div className="project-card glass-card">
             <div className="project-image">
-              <img src="src\TripTayo.png" alt="Trip Tayo" />
+              <img src="/TripTayo.png" alt="Trip Tayo" />
               <div className="project-overlay">
                 <div className="project-links">
                   <a href="https://www.figma.com/proto/qkCm3gKlGxqv1LATBLVgAN/FSUU-Team?node-id=8-21&starting-point-node-id=8%3A21&t=yDnbHXjTOMDemdql-1" className="project-link">
@@ -145,7 +145,7 @@ const Projects = () => {
           {/* Project 6 */}
           <div className="project-card glass-card">
             <div className="project-image">
-              <img src="src\CARE.png" alt="Mobile App UI" />
+              <img src="/CARE.png" alt="Mobile App UI" />
               <div className="project-overlay">
                 <div className="project-links">
                   <a href="https://www.figma.com/proto/UqlCLykxCrprxLPuWTjpuc/CARE---Mobile-App?node-id=43-6&p=f&t=noGpQqFS2yCJtOBG-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=43%3A6" className="project-link">
