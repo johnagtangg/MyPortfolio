@@ -30,7 +30,7 @@ const Projects = () => {
               </p>
               <div className="project-tech">
                 <span className="tech-tag">WordPress</span>
-                <span className="tech-tag">Breakdanace</span>
+                <span className="tech-tag">Breakdance</span>
                 <span className="tech-tag">SEO</span>
               </div>
             </div>
