@@ -101,14 +101,8 @@ const Skills = () => {
         <div className="skills-grid animated-content">
           {skills.map((skill, index) => (
             <div key={index} className={`skill-card animated-skill-card card-${index + 1}`}>
-              <div className="skill-icon animated-skill-icon">
-                <img src={skill.icon} alt={skill.name} />
-              </div>
               <div className="skill-header">
                 <h3 className="animated-skill-title">{skill.name}</h3>
-                <span className={`skill-level ${skill.level.toLowerCase()} animated-skill-level`}>
-                  {skill.level}
-                </span>
               </div>
               <p className="skill-description animated-skill-description">{skill.description}</p>
               <div className="skill-tools">
@@ -117,9 +111,6 @@ const Skills = () => {
                     {tool}
                   </span>
                 ))}
-              </div>
-              <div className="skill-progress-bar">
-                <div className={`skill-progress ${skill.level.toLowerCase()}`}></div>
               </div>
             </div>
           ))}
