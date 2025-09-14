@@ -47,14 +47,14 @@ const Skills = () => {
   ]
 
   const toolsIWorkWith = [
-    { name: "Canva", icon: "https://img.icons8.com/color/64/canva.png" },
-    { name: "Figma", icon: "https://img.icons8.com/color/64/figma.png" },
-    { name: "WordPress", icon: "https://img.icons8.com/color/64/wordpress.png" },
-    { name: "WooCommerce", icon: "https://img.icons8.com/color/64/woocommerce.png" },
-    { name: "Elementor", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" },
-    { name: "Breakdance", icon: "https://img.icons8.com/color/64/web-design.png" },
-    { name: "Slack", icon: "https://img.icons8.com/color/64/slack-new.png" },
-    { name: "Discord", icon: "https://img.icons8.com/color/64/discord-new-logo.png" }
+  { name: "Canva", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" },
+  { name: "Figma", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
+  { name: "WordPress", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" },
+  { name: "WooCommerce", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/woocommerce/woocommerce-original.svg" },
+  { name: "Elementor", icon: "https://www.svgrepo.com/show/313877/elementor.svg" },
+  { name: "Breakdance", icon: "https://breakdance.com/wp-content/uploads/2022/09/breakdance-logo.svg" },
+  { name: "Slack", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" },
+  { name: "Discord", icon: "https://www.svgrepo.com/show/353655/discord-icon.svg" }
   ]
 
   return (
