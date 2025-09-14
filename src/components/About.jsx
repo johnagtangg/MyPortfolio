@@ -28,7 +28,7 @@ const About = () => {
           <div className="about-text slide-in-left full-width">
             <p className="animated-paragraph" style={{ color: '#ffffff' }}>
               I'm a passionate WordPress Web Developer with 4 years of experience in web development 
-              and 2 years specializing in Figma design. I have a strong background in creating 
+              and 3 years specializing in Figma design. I have a strong background in creating 
               user-friendly, responsive websites that deliver exceptional user experiences.
             </p>
             <p className="animated-paragraph" style={{ color: '#ffffff' }}>
