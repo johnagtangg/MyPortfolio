@@ -1,0 +1,112 @@
+.auto-scroll-gallery-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.gallery-arrow {
+  background: #222b3a;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  transition: background 0.2s, transform 0.2s;
+  z-index: 2;
+}
+.gallery-arrow:hover, .gallery-arrow:focus {
+  background: #0036ab;
+  transform: scale(1.1);
+}
+
+/* Modal styles (shared with Gallery.css for consistency) */
+.gallery-modal {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.gallery-modal-content {
+  background: #222b3a;
+  border-radius: 16px;
+  padding: 2rem;
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gallery-modal-img {
+  max-width: 70vw;
+  max-height: 60vh;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+.gallery-modal-title {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.gallery-modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.auto-scroll-gallery-section {
+  margin: 3rem 0 2rem 0;
+}
+.auto-scroll-gallery {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 2rem;
+  padding: 1rem 0;
+  background: rgba(30, 41, 59, 0.7);
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  scrollbar-width: none;
+}
+.auto-scroll-gallery::-webkit-scrollbar {
+  display: none;
+}
+.auto-scroll-gallery-item {
+  min-width: 220px;
+  max-width: 220px;
+  flex: 0 0 auto;
+  text-align: center;
+  background: rgba(40, 50, 70, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  padding: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.auto-scroll-gallery-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+}
+.auto-scroll-gallery-img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+.auto-scroll-gallery-title {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
